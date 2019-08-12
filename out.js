@@ -27523,7 +27523,7 @@ var ContactForm = function (_Component) {
                     ),
                     _react2.default.createElement(
                         'form',
-                        { className: 'form', action: 'http://www.test.com/contact.php', onSubmit: this.handleSubmit },
+                        { action: 'https://formspree.io/wojte_kk@wp.pl', method: 'POST' },
                         _react2.default.createElement('input', {
                             type: 'text',
                             name: 'name',
