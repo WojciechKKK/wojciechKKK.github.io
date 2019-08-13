@@ -923,7 +923,7 @@ var SocialMedia = function (_Component) {
         var _this = _possibleConstructorReturn(this, (SocialMedia.__proto__ || Object.getPrototypeOf(SocialMedia)).call(this));
 
         _this.state = {
-            socialMedia: ['github', 'linkedin', 'twitter', 'facebook']
+            socialMedia: ['github', 'linkedin', 'chrome', 'facebook']
         };
         return _this;
     }
@@ -945,7 +945,7 @@ var SocialMedia = function (_Component) {
                             { key: el },
                             _react2.default.createElement(
                                 'a',
-                                { href: el == 'github' ? 'https://github.com/WojciechKKK' : null || el == 'linkedin' ? 'https://www.linkedin.com/in/wojciech-kmiec/' : null || 'https://www.' + el + '.com/', target: '_blank', title: el },
+                                { href: el == 'github' ? 'https://github.com/WojciechKKK' : null || el == 'linkedin' ? 'https://www.linkedin.com/in/wojciech-kmiec/' : null || el == 'chrome' ? 'https://www.wojciechkkk.pl/' : null || 'https://www.' + el + '.com/', target: '_blank', title: el },
                                 _react2.default.createElement('i', { className: 'fab fa-' + el + ' social_icon' })
                             )
                         );
