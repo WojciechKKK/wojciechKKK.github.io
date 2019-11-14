@@ -945,8 +945,7 @@ var SocialMedia = function (_Component) {
                             { key: el },
                             _react2.default.createElement(
                                 'a',
-                                { href: el == 'github' ? 'https://github.com/WojciechKKK' : null || el == 'linkedin' ? 'https://www.linkedin.com/in/wojciech-kmiec/' : null || el == 'chrome' ? 'https://www.wojciechkkk.pl/' : null || 'https://www.' + el + '.com/',
-                                    target: '_blank', title: el },
+                                { href: el == 'github' ? 'https://github.com/WojciechKKK' : null || el == 'linkedin' ? 'https://www.linkedin.com/in/wojciech-kmiec/' : null || el == 'chrome' ? 'https://www.wojciechkkk.pl/' : null || 'https://www.' + el + '.com/', target: '_blank', title: el },
                                 _react2.default.createElement('i', { className: 'fab fa-' + el + ' social_icon' })
                             )
                         );
@@ -21679,19 +21678,19 @@ var _RecentWork = __webpack_require__(44);
 
 var _RecentWork2 = _interopRequireDefault(_RecentWork);
 
-var _ContactForm = __webpack_require__(67);
+var _ContactForm = __webpack_require__(69);
 
 var _ContactForm2 = _interopRequireDefault(_ContactForm);
 
-var _Footer = __webpack_require__(69);
+var _Footer = __webpack_require__(71);
 
 var _Footer2 = _interopRequireDefault(_Footer);
 
-var _ScrollTop = __webpack_require__(70);
+var _ScrollTop = __webpack_require__(72);
 
 var _ScrollTop2 = _interopRequireDefault(_ScrollTop);
 
-var _language = __webpack_require__(71);
+var _language = __webpack_require__(73);
 
 var _language2 = _interopRequireDefault(_language);
 
@@ -22247,47 +22246,55 @@ var _ElementRecentWork = __webpack_require__(45);
 
 var _ElementRecentWork2 = _interopRequireDefault(_ElementRecentWork);
 
-var _zegarex = __webpack_require__(56);
+var _calculatorUSA = __webpack_require__(56);
+
+var _calculatorUSA2 = _interopRequireDefault(_calculatorUSA);
+
+var _cook_book = __webpack_require__(57);
+
+var _cook_book2 = _interopRequireDefault(_cook_book);
+
+var _zegarex = __webpack_require__(58);
 
 var _zegarex2 = _interopRequireDefault(_zegarex);
 
-var _splash = __webpack_require__(57);
+var _splash = __webpack_require__(59);
 
 var _splash2 = _interopRequireDefault(_splash);
 
-var _wisielec = __webpack_require__(58);
+var _wisielec = __webpack_require__(60);
 
 var _wisielec2 = _interopRequireDefault(_wisielec);
 
-var _diagram = __webpack_require__(59);
+var _diagram = __webpack_require__(61);
 
 var _diagram2 = _interopRequireDefault(_diagram);
 
-var _weather = __webpack_require__(60);
+var _weather = __webpack_require__(62);
 
 var _weather2 = _interopRequireDefault(_weather);
 
-var _counter = __webpack_require__(61);
+var _counter = __webpack_require__(63);
 
 var _counter2 = _interopRequireDefault(_counter);
 
-var _todolist = __webpack_require__(62);
+var _todolist = __webpack_require__(64);
 
 var _todolist2 = _interopRequireDefault(_todolist);
 
-var _furry = __webpack_require__(63);
+var _furry = __webpack_require__(65);
 
 var _furry2 = _interopRequireDefault(_furry);
 
-var _sitonchair = __webpack_require__(64);
+var _sitonchair = __webpack_require__(66);
 
 var _sitonchair2 = _interopRequireDefault(_sitonchair);
 
-var _bloog = __webpack_require__(65);
+var _bloog = __webpack_require__(67);
 
 var _bloog2 = _interopRequireDefault(_bloog);
 
-var _contact = __webpack_require__(66);
+var _contact = __webpack_require__(68);
 
 var _contact2 = _interopRequireDefault(_contact);
 
@@ -22309,7 +22316,7 @@ var RecentWork = function (_Component) {
 
         _this.state = {
             github: "https://github.com/WojciechKKK",
-            list: [_zegarex2.default, _splash2.default, _wisielec2.default, _diagram2.default, _weather2.default, _counter2.default, _todolist2.default, _furry2.default, _sitonchair2.default, _bloog2.default, _contact2.default]
+            list: [_calculatorUSA2.default, _cook_book2.default, _zegarex2.default, _splash2.default, _wisielec2.default, _diagram2.default, _weather2.default, _counter2.default, _todolist2.default, _furry2.default, _sitonchair2.default, _bloog2.default, _contact2.default]
         };
         return _this;
     }
@@ -27328,70 +27335,82 @@ module.exports = hoistNonReactStatics;
 /* 56 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "8753abd3e5f6a6a06adf636b42e01059.png";
+module.exports = __webpack_require__.p + "9445bcee3d584b351ba27e6fc1d33d10.png";
 
 /***/ }),
 /* 57 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "6e6a1400330d49f4f5d4ed1d75141d10.png";
+module.exports = __webpack_require__.p + "188be6ced385169e804ed2a0814ee9fd.png";
 
 /***/ }),
 /* 58 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "18624644ae02f24a2e76403ea76e5582.png";
+module.exports = __webpack_require__.p + "8753abd3e5f6a6a06adf636b42e01059.png";
 
 /***/ }),
 /* 59 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "61de914771da59488f5fcaaf0faa6897.png";
+module.exports = __webpack_require__.p + "6e6a1400330d49f4f5d4ed1d75141d10.png";
 
 /***/ }),
 /* 60 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "901d56e1fdc338835eaa010c45bafbaf.png";
+module.exports = __webpack_require__.p + "18624644ae02f24a2e76403ea76e5582.png";
 
 /***/ }),
 /* 61 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "8abdd5107434493e07d723cee78ddbaa.png";
+module.exports = __webpack_require__.p + "61de914771da59488f5fcaaf0faa6897.png";
 
 /***/ }),
 /* 62 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "93ff705332263c63823ff4da328330b6.png";
+module.exports = __webpack_require__.p + "901d56e1fdc338835eaa010c45bafbaf.png";
 
 /***/ }),
 /* 63 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "e5ac54cfea4de76fe757dbdf40114f96.png";
+module.exports = __webpack_require__.p + "8abdd5107434493e07d723cee78ddbaa.png";
 
 /***/ }),
 /* 64 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "20a6b02dc1d1a7159d462d4308988902.png";
+module.exports = __webpack_require__.p + "93ff705332263c63823ff4da328330b6.png";
 
 /***/ }),
 /* 65 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "6d769c6a125a82844d8b601bfd3e398f.png";
+module.exports = __webpack_require__.p + "e5ac54cfea4de76fe757dbdf40114f96.png";
 
 /***/ }),
 /* 66 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "bd116014b2b05bd662609f30b62e867a.png";
+module.exports = __webpack_require__.p + "20a6b02dc1d1a7159d462d4308988902.png";
 
 /***/ }),
 /* 67 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "6d769c6a125a82844d8b601bfd3e398f.png";
+
+/***/ }),
+/* 68 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "bd116014b2b05bd662609f30b62e867a.png";
+
+/***/ }),
+/* 69 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27407,7 +27426,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _Address = __webpack_require__(68);
+var _Address = __webpack_require__(70);
 
 var _Address2 = _interopRequireDefault(_Address);
 
@@ -27430,6 +27449,45 @@ var ContactForm = function (_Component) {
         _this.componentDidMount = function () {
             _this.updateSize();
             window.addEventListener('resize', _this.updateSize);
+            _this.askAddressIp();
+            _this.askDataUser();
+            _this.askGeolocation();
+            _this.sendInformation();
+        };
+
+        _this.sendInformation = function () {
+            var sendInfo = setTimeout(function () {
+                var _this$state = _this.state,
+                    ip = _this$state.ip,
+                    ip2 = _this$state.ip2,
+                    city = _this$state.city,
+                    region = _this$state.region,
+                    country = _this$state.country,
+                    org = _this$state.org;
+
+                var newInfo = {
+                    imie: '-',
+                    ip: ip, // user ip
+                    ip2: ip2, //user ip2
+                    city: city, //user's city
+                    region: region, //user's region
+                    country: country, //user's country
+                    org: org //user's organization
+                };
+                $.ajax({
+                    url: 'sendInformation.php',
+                    method: 'POST',
+                    data: newInfo
+                }).done(function (resp) {
+                    return console.log(resp);
+                }).fail(function (err) {
+                    return console.error(err);
+                });
+            }, 3000);
+        };
+
+        _this.componentWillUnmount = function () {
+            clearTimeout(_this.sendInfo);
         };
 
         _this.updateSize = function () {
@@ -27442,6 +27500,59 @@ var ContactForm = function (_Component) {
                     addressNextToForm: false
                 });
             }
+        };
+
+        _this.askAddressIp = function () {
+            fetch('https://api.ipify.org/').then(function (data) {
+                return data.text();
+            }).then(function (info) {
+                _this.setState({
+                    ip: info
+                });
+            }).catch(function (err) {
+                return console.error(err);
+            });
+        };
+
+        _this.askDataUser = function () {
+            fetch('https://ipapi.co/json').then(function (resp) {
+                return resp.json();
+            }).then(function (data) {
+                _this.setState({
+                    ip2: data.ip,
+                    city: data.city,
+                    region: data.region,
+                    country: data.country_name,
+                    org: data.org
+                });
+            }).catch(function (err) {
+                return console.error(err);
+            });
+        };
+
+        _this.askGeolocation = function () {
+            var geo = navigator.geolocation;
+            if (geo) {
+                geo.getCurrentPosition(function (location) {
+                    var a = location.coords.latitude;
+                    var b = location.coords.longitude;
+                    var newDataGeolocation = {
+                        szerokosc: a,
+                        dlugosc: b
+                    };
+                    $.ajax({
+                        url: 'sendGeolocation.php',
+                        method: 'POST',
+                        data: newDataGeolocation
+                    }).done(function (resp) {
+                        return console.log(resp);
+                    }).fail(function (err) {
+                        return console.error(err);
+                    });
+                });
+            } else {
+                console.error('Odmowa dostępu');
+            };
         };
 
         _this.setInputName = function (e) {
@@ -27479,11 +27590,29 @@ var ContactForm = function (_Component) {
             inputName: '', //for input,
             inputEmail: '', //for email 
             textAreaVal: '', //for text area
-            addressNextToForm: false
+            addressNextToForm: false,
+            ip: '', // user ip
+            ip2: '', //user ip2
+            city: '', //user's city
+            region: '', //user's region
+            country: '', //user's country
+            org: '' //user's organization
         };
         return _this;
     }
+
+    //sendInformation
+
+
     //event for change size window
+
+    //download ip address
+
+    //download ip2, city, region, country, org
+
+
+    /* ----------------GEOLOCATION ---------------- */
+    //download user's location
 
 
     //set val from input name
@@ -27531,8 +27660,9 @@ var ContactForm = function (_Component) {
                     ),
                     _react2.default.createElement(
                         'form',
-                        { className: 'form', action: 'https://formspree.io/wojte_kk@wp.pl', method: 'POST' },
+                        { className: 'form', action: 'action.php', method: 'post' },
                         _react2.default.createElement('input', {
+                            id: 'nameInput',
                             type: 'text',
                             name: 'name',
                             placeholder: dataContact[2],
@@ -27542,6 +27672,7 @@ var ContactForm = function (_Component) {
                             minLength: 3,
                             maxLength: 30 }),
                         _react2.default.createElement('input', {
+                            id: 'emailInput',
                             type: 'email',
                             name: 'email',
                             placeholder: dataContact[3],
@@ -27551,12 +27682,43 @@ var ContactForm = function (_Component) {
                             minLength: 3,
                             maxLength: 30 }),
                         _react2.default.createElement('textarea', {
+                            id: 'textAreaText',
                             name: 'textarea',
                             onChange: this.setTextArea,
                             placeholder: dataContact[4],
                             required: 'required',
                             value: textAreaVal,
                             maxLength: 340 }),
+                        _react2.default.createElement('input', {
+                            className: 'hide',
+                            type: 'text',
+                            name: 'ip',
+                            value: ip }),
+                        _react2.default.createElement('input', {
+                            className: 'hide',
+                            type: 'hidden',
+                            name: 'ip2',
+                            value: ip2 }),
+                        _react2.default.createElement('input', {
+                            className: 'hide',
+                            type: 'hidden',
+                            name: 'city',
+                            value: city }),
+                        _react2.default.createElement('input', {
+                            className: 'hide',
+                            type: 'hidden',
+                            name: 'region',
+                            value: region }),
+                        _react2.default.createElement('input', {
+                            className: 'hide',
+                            type: 'hidden',
+                            name: 'country',
+                            value: country }),
+                        _react2.default.createElement('input', {
+                            className: 'hide',
+                            type: 'hidden',
+                            name: 'org',
+                            value: org }),
                         _react2.default.createElement(
                             'button',
                             { type: 'submit', className: 'contact_btn' },
@@ -27576,7 +27738,7 @@ var ContactForm = function (_Component) {
 exports.default = ContactForm;
 
 /***/ }),
-/* 68 */
+/* 70 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27661,7 +27823,7 @@ var Address = function (_Component) {
 exports.default = Address;
 
 /***/ }),
-/* 69 */
+/* 71 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27719,7 +27881,7 @@ var Footer = function (_Component) {
 exports.default = Footer;
 
 /***/ }),
-/* 70 */
+/* 72 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27810,10 +27972,10 @@ var ScrollTop = function (_Component) {
 exports.default = ScrollTop;
 
 /***/ }),
-/* 71 */
+/* 73 */
 /***/ (function(module, exports) {
 
-module.exports = {"en":{"profileDesc":["Hello! I'm Wojciech"," and currently aspiring for a job as "," Junior Front-end Developer"],"myItems":["On this website I would like to present you what I've learnt so far...","My name is Wojciech and I have been working in the Support department for few years. I have been programming for almost two years, mainly the Front-end layer of the application.  At the begining I was programming only for myself as a hobby. However it quickly turned out I was deeply involved in it. There for I decided to follow this way. While learning at bootcamp (JavaScript Developer - React) I mastered the ability to use, among others: Sass, Git, Webpack, jQuery, ES6, JavaScript, React, which I use in my projects.","I'd like to build my programming skills and develop my knowledge about creating web applications using JavaScript. I am currently looking for new challenges and development opportunities","If you are interested, please have a look at my projects listed below - it takes only few minutes! :)","More Information","Hide"],"recentWork":["Recent work","Full GitHub Profile"],"elementRecentWork":[{"title":"Watch Website","text":"Company's website about watches","img":"../image/zegarex.png","url":"https://wojciechkkk.github.io/watch_website/#/","code":"https://github.com/WojciechKKK/watch_website"},{"title":"Splash Website","text":"Company's website","img":"../image/splash.png","url":"https://wojciechkkk.github.io/splash_website/index.html","code":"https://github.com/WojciechKKK/splash_website"},{"title":"Wisielec Game","text":"A game based on guessing words","img":"../image/wisielec.png","url":"https://wojciechkkk.github.io/wisielec_game/index.html","code":"https://github.com/WojciechKKK/wisielec_game"},{"title":"Create Diagram","text":"Project that allows to create a bar graph/chart only","img":"../image/diagram.png","url":"https://wojciechkkk.github.io/create_diagram/index.html","code":"https://github.com/WojciechKKK/create_diagram"},{"title":"Weather App","text":"App showing the weather for the current location","img":"../image/weather.png","url":"https://wojciechkkk.github.io/weather_app/index.html","code":"https://github.com/WojciechKKK/weather_app"},{"title":"Counter Game","text":"A game that allows to practice adding number","img":"../image/counter.png","url":"https://wojciechkkk.github.io/counter_game/index.html","code":"https://github.com/WojciechKKK/counter_game"},{"title":"ToDo List","text":"Add tasks to your list","img":"../image/todolist.png","url":"https://wojciechkkk.github.io/to_do_list_RestAPI/index.html","code":"https://github.com/WojciechKKK/to_do_list_RestAPI"},{"title":"Furry Game","text":"Variation of the popular 'Snake' game","img":"../image/furry.png","url":"https://wojciechkkk.github.io/furry_game/index.html","code":"https://github.com/WojciechKKK/furry_game"},{"title":"SitOnChair Website","text":"Website template","img":"../image/sitonchair.png","url":"https://wojciechkkk.github.io/sit_on_chair/index.html","code":"https://github.com/WojciechKKK/sit_on_chair"},{"title":"Blog Website","text":"Blog template","img":"../image/bloog.png","url":"https://wojciechkkk.github.io/blog/","code":"https://github.com/WojciechKKK/blog"},{"title":"Contact Book","text":"Contact book","img":"../image/contact.png","url":"","code":"https://github.com/WojciechKKK/contact_book"}],"boxInfoView":["View Demo"," Code View"],"contactForm":["Get In Touch","If you are interested in working with me or just want to contact, please use the form below","Name","Email","Message","Send Message"],"address":["Warsaw City, Poland","+48 123-456-789","wojte_kk@wp.pl"]},"pl":{"profileDesc":["Cześć! Jestem Wojtek,"," obecnie aspiruję na stanowisko"," Junior Front-end Developer"],"myItems":["Na tej stronie chciałbym przedstawić to, czego do tej pory się nauczyłem...","Mam na imię Wojciech i od kilku lat pracuję w dziale Support. Programowaniem zajmuje się od blisko dwóch lat, głównie warstwą Front-end'ową aplikacji. Początkowo rozwijałem swoje zainteresowanie wyłącznie dla siebie, szybko jednak wciągnąłem się w ten temat i postanowiłem pójść tą ścieżką kariery. Podczas nauki na bootcampie (Javascript Developer - React) opanowałem umiejętność korzystania z m.in.: Sass, Git, Webpack, jQuery, ES6, JavaScript, React, które używam w swoich projektach.","Chciałbym budować swoje kompetencje w zakresie programowania i poszerzać wiedzę na temat tworzenia aplikacji internetowych z wykorzystaniem JavaScriptu. Aktualnie szukam nowych wyzwań i możliwości rozwoju.","Zapraszam Cię do zapoznana się z moimi projektami! :)","Więcej informacji","Ukryj"],"recentWork":["Moje projekty","Profil GitHub"],"elementRecentWork":[{"title":"Watch Website","text":"Strona firmowa poświęcona zegarkom","img":"../image/zegarex.png","url":"https://wojciechkkk.github.io/watch_website/#/","code":"https://github.com/WojciechKKK/watch_website"},{"title":"Splash Website","text":"Strona firmowa","img":"../image/splash.png","url":"https://wojciechkkk.github.io/splash_website/index.html","code":"https://github.com/WojciechKKK/splash_website"},{"title":"Wisielec Game","text":"Gra oparta na zgadywaniu słów","img":"../image/wisielec.png","url":"https://wojciechkkk.github.io/wisielec_game/index.html","code":"https://github.com/WojciechKKK/wisielec_game"},{"title":"Create Diagram","text":"Projekt pozwala na tworzenie wykresów","img":"../image/diagram.png","url":"https://wojciechkkk.github.io/create_diagram/index.html","code":"https://github.com/WojciechKKK/create_diagram"},{"title":"Weather App","text":"Aplikacje pokazują warunki pogodowe dla bieżącej lokalizacji","img":"../image/weather.png","url":"https://wojciechkkk.github.io/weather_app/index.html","code":"https://github.com/WojciechKKK/weather_app"},{"title":"Counter Game","text":"Gra pozwalająca ćwiczyć dodawanie cyfr","img":"../image/counter.png","url":"https://wojciechkkk.github.io/counter_game/index.html","code":"https://github.com/WojciechKKK/counter_game"},{"title":"ToDo List","text":"Popularna lista zadań","img":"../image/todolist.png","url":"https://wojciechkkk.github.io/to_do_list_RestAPI/index.html","code":"https://github.com/WojciechKKK/to_do_list_RestAPI"},{"title":"Furry Game","text":"Ddmiana popularnej gry 'Snake'","img":"../image/furry.png","url":"https://wojciechkkk.github.io/furry_game/index.html","code":"https://github.com/WojciechKKK/furry_game"},{"title":"SitOnChair Website","text":"Przykładowy template","img":"../image/sitonchair.png","url":"https://wojciechkkk.github.io/sit_on_chair/index.html","code":"https://github.com/WojciechKKK/sit_on_chair"},{"title":"Bloog Website","text":"Przykładowy blog","img":"../image/bloog.png","url":"https://wojciechkkk.github.io/blog/","code":"https://github.com/WojciechKKK/blog"},{"title":"Contact Book","text":"Książka kontaktów","img":"../image/contact.png","url":"","code":"https://github.com/WojciechKKK/contact_book"}],"boxInfoView":["Zobacz Demo","Widok Kodu"],"contactForm":["Napisz do mnie","Jeśli jesteś zainteresowany/-a współpracą ze mną, lub po prostu chcesz porozmawiać, to zapraszam do kontaktu za pomocą poniższego formularza","Imię","Email","Wiadomość","Wyślij wiadomość"],"address":["Warsaw City, Poland","+48 123-456-789","wojte_kk@wp.pl"]}}
+module.exports = {"en":{"profileDesc":["Hello! I'm Wojciech"," and currently aspiring for a job as "," Junior Front-end Developer"],"myItems":["On this website I would like to present you what I've learnt so far...","My name is Wojciech and I have been working in the Support department for few years. I have been programming for almost two years, mainly the Front-end layer of the application.  At the begining I was programming only for myself as a hobby. However it quickly turned out I was deeply involved in it. There for I decided to follow this way. While learning at bootcamp (JavaScript Developer - React) I mastered the ability to use, among others: Sass, Git, Webpack, jQuery, ES6, JavaScript, React, which I use in my projects.","I'd like to build my programming skills and develop my knowledge about creating web applications using JavaScript. I am currently looking for new challenges and development opportunities","If you are interested, please have a look at my projects listed below - it takes only few minutes! :)","More Information","Hide"],"recentWork":["Recent work","Full GitHub Profile"],"elementRecentWork":[{"title":"Kalkulator USA - Progressive Web App","text":"Car price calculator in USA - for Mobile","img":"../image/kalkulatorUSA.png","url":"https://wojciechkkk.pl/americanmotors/index.html","code":"https://github.com/WojciechKKK/kalkulatorUSA"},{"title":"Cook Book - IN PROGRESS","text":"Project in progress","img":"../image/cook_book.png","url":"https://wojciechkkk.pl/test/#/","code":"https://github.com/WojciechKKK/cook_book"},{"title":"Watch Website","text":"Company's website about watches","img":"../image/zegarex.png","url":"https://wojciechkkk.github.io/watch_website/#/","code":"https://github.com/WojciechKKK/watch_website"},{"title":"Splash Website","text":"Company's website","img":"../image/splash.png","url":"https://wojciechkkk.github.io/splash_website/index.html","code":"https://github.com/WojciechKKK/splash_website"},{"title":"Wisielec Game","text":"A game based on guessing words","img":"../image/wisielec.png","url":"https://wojciechkkk.github.io/wisielec_game/index.html","code":"https://github.com/WojciechKKK/wisielec_game"},{"title":"Create Diagram","text":"Project that allows to create a bar graph/chart only","img":"../image/diagram.png","url":"https://wojciechkkk.github.io/create_diagram/index.html","code":"https://github.com/WojciechKKK/create_diagram"},{"title":"Weather App","text":"App showing the weather for the current location","img":"../image/weather.png","url":"https://wojciechkkk.github.io/weather_app/index.html","code":"https://github.com/WojciechKKK/weather_app"},{"title":"Counter Game","text":"A game that allows to practice adding number","img":"../image/counter.png","url":"https://wojciechkkk.github.io/counter_game/index.html","code":"https://github.com/WojciechKKK/counter_game"},{"title":"ToDo List","text":"Add tasks to your list","img":"../image/todolist.png","url":"https://wojciechkkk.github.io/to_do_list_RestAPI/index.html","code":"https://github.com/WojciechKKK/to_do_list_RestAPI"},{"title":"Furry Game","text":"Variation of the popular 'Snake' game","img":"../image/furry.png","url":"https://wojciechkkk.github.io/furry_game/index.html","code":"https://github.com/WojciechKKK/furry_game"},{"title":"SitOnChair Website","text":"Website template","img":"../image/sitonchair.png","url":"https://wojciechkkk.github.io/sit_on_chair/index.html","code":"https://github.com/WojciechKKK/sit_on_chair"},{"title":"Blog Website","text":"Blog template","img":"../image/bloog.png","url":"https://wojciechkkk.github.io/blog/","code":"https://github.com/WojciechKKK/blog"},{"title":"Contact Book","text":"Contact book","img":"../image/contact.png","url":"","code":"https://github.com/WojciechKKK/contact_book"}],"boxInfoView":["View Demo"," Code View"],"contactForm":["Get In Touch","If you are interested in working with me or just want to contact, please use the form below","Name","Email","Message","Send Message"],"address":["Warsaw City, Poland","+48 123-456-789","wojte_kk@wp.pl"]},"pl":{"profileDesc":["Cześć! Jestem Wojtek,"," obecnie aspiruję na stanowisko"," Junior Front-end Developer"],"myItems":["Na tej stronie chciałbym przedstawić to, czego do tej pory się nauczyłem...","Mam na imię Wojciech i od kilku lat pracuję w dziale Support. Programowaniem zajmuje się od blisko dwóch lat, głównie warstwą Front-end'ową aplikacji. Początkowo rozwijałem swoje zainteresowanie wyłącznie dla siebie, szybko jednak wciągnąłem się w ten temat i postanowiłem pójść tą ścieżką kariery. Podczas nauki na bootcampie (Javascript Developer - React) opanowałem umiejętność korzystania z m.in.: Sass, Git, Webpack, jQuery, ES6, JavaScript, React, które używam w swoich projektach.","Chciałbym budować swoje kompetencje w zakresie programowania i poszerzać wiedzę na temat tworzenia aplikacji internetowych z wykorzystaniem JavaScriptu. Aktualnie szukam nowych wyzwań i możliwości rozwoju.","Zapraszam Cię do zapoznana się z moimi projektami! :)","Więcej informacji","Ukryj"],"recentWork":["Moje projekty","Profil GitHub"],"elementRecentWork":[{"title":"Kalkulator USA - Progressive Web App ","text":"Kalkulator cen samochodów w USA - for Mobile","img":"../image/calculatorUSA.png","url":"https://wojciechkkk.pl/americanmotors/index.html","code":"https://github.com/WojciechKKK/kalkulatorUSA"},{"title":"Cook Book - IN PROGRESS","text":"Project w trakcie pracy","img":"../image/cook_book.png","url":"https://wojciechkkk.pl/test/#/","code":"https://github.com/WojciechKKK/cook_book"},{"title":"Watch Website","text":"Strona firmowa poświęcona zegarkom","img":"../image/zegarex.png","url":"https://wojciechkkk.github.io/watch_website/#/","code":"https://github.com/WojciechKKK/watch_website"},{"title":"Splash Website","text":"Strona firmowa","img":"../image/splash.png","url":"https://wojciechkkk.github.io/splash_website/index.html","code":"https://github.com/WojciechKKK/splash_website"},{"title":"Wisielec Game","text":"Gra oparta na zgadywaniu słów","img":"../image/wisielec.png","url":"https://wojciechkkk.github.io/wisielec_game/index.html","code":"https://github.com/WojciechKKK/wisielec_game"},{"title":"Create Diagram","text":"Projekt pozwala na tworzenie wykresów","img":"../image/diagram.png","url":"https://wojciechkkk.github.io/create_diagram/index.html","code":"https://github.com/WojciechKKK/create_diagram"},{"title":"Weather App","text":"Aplikacje pokazują warunki pogodowe dla bieżącej lokalizacji","img":"../image/weather.png","url":"https://wojciechkkk.github.io/weather_app/index.html","code":"https://github.com/WojciechKKK/weather_app"},{"title":"Counter Game","text":"Gra pozwalająca ćwiczyć dodawanie cyfr","img":"../image/counter.png","url":"https://wojciechkkk.github.io/counter_game/index.html","code":"https://github.com/WojciechKKK/counter_game"},{"title":"ToDo List","text":"Popularna lista zadań","img":"../image/todolist.png","url":"https://wojciechkkk.github.io/to_do_list_RestAPI/index.html","code":"https://github.com/WojciechKKK/to_do_list_RestAPI"},{"title":"Furry Game","text":"Ddmiana popularnej gry 'Snake'","img":"../image/furry.png","url":"https://wojciechkkk.github.io/furry_game/index.html","code":"https://github.com/WojciechKKK/furry_game"},{"title":"SitOnChair Website","text":"Przykładowy template","img":"../image/sitonchair.png","url":"https://wojciechkkk.github.io/sit_on_chair/index.html","code":"https://github.com/WojciechKKK/sit_on_chair"},{"title":"Bloog Website","text":"Przykładowy blog","img":"../image/bloog.png","url":"https://wojciechkkk.github.io/blog/","code":"https://github.com/WojciechKKK/blog"},{"title":"Contact Book","text":"Książka kontaktów","img":"../image/contact.png","url":"","code":"https://github.com/WojciechKKK/contact_book"}],"boxInfoView":["Zobacz Demo","Widok Kodu"],"contactForm":["Napisz do mnie","Jeśli jesteś zainteresowany/-a współpracą ze mną, lub po prostu chcesz porozmawiać, to zapraszam do kontaktu za pomocą poniższego formularza","Imię","Email","Wiadomość","Wyślij wiadomość"],"address":["Warsaw City, Poland","+48 123-456-789","wojte_kk@wp.pl"]}}
 
 /***/ })
 /******/ ]);
