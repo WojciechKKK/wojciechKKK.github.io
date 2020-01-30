@@ -1,3 +1,3 @@
-# wojciechKKK.github.io
-
+# Hello :)
+More information about me and my work:
 https://wojciechkkk.pl/
