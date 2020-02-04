@@ -1,4 +1,4 @@
 # Hello :)
-More information about me and my projects:
+More information about my projects:
 
 https://wojciechkkk.pl/
